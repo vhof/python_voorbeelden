@@ -5,7 +5,7 @@ print()
 def vraagCijfer():
   cijfer = float(input("Voer het cijfer in: "))
   
-  while cijfer < 1.0 or cijfer > 10.0:
+  while (cijfer < 1.0 or cijfer > 10.0):
     print("Dat is geen geldig schoolcijfer!")
     cijfer = float(input("Voer het opnieuw in: "))
 

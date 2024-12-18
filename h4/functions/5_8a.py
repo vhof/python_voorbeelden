@@ -3,12 +3,15 @@ print()
 
 # Alleen cijfers tussen de 1.0 en 10.0 zijn geldig
 def vraagCijfer():
-  return 0
+  cijfer = input()
+  return cijfer
 
 
 cijfer1 = vraagCijfer()
 cijfer2 = vraagCijfer()
 
+print("cijfer 1:", cijfer1)
+print("cijfer2:", cijfer2)
 
 print()
 
