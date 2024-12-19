@@ -1,3 +1,21 @@
+"""
+Autheur         : Vincent van 't Hof
+Doel            : Dit programma bevat een functie die de    
+                  winnaar van een potje steen-papier-schaar 
+                  bepaalt
+Datum / versie  : 
+
+Invoer          :
+Uitvoer         : 
+Gebruikte berekeningen / algoritmen :
+
+Python modules die geïmporteerd worden : math
+Overige opmerkingen : 
+
+"""
+import math
+
+
 def steenPapierSchaar(s1, s2):
     """Bepaal het resultaat van een potje 
     steen-papier-schaar tussen s1 en s2

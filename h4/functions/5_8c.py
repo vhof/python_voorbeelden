@@ -11,8 +11,24 @@ def vraagCijfer():
 
   return cijfer
 
+
+
+
+
+
 def berekenGemiddelde(x, y):
-  return 0
+    """Deze functie berekent het gemiddelde tussen x en y"""
+
+    resultaat = (x + y) / 2
+
+    return resultaat
+
+
+
+
+
+
+
 
 
 cijfer1 = vraagCijfer()
